@@ -23,13 +23,19 @@ Electron — фреймворк, разработанный GitHub. Позвол
 - переработан внешний вид, изменена тема по умолчанию, скрыто сервисное меню, отключены ненужные пункты, добавлена кнопка "Перезагрузить" для полного обновления содержимого
 
 ### Установка и настройка 
+
+**Среда разработки:**
+
 Windows x64
 Node 14.17.5
 Yarn 1.22.11
+Для сборки потребуется пакет https://github.com/f3rret/simple-peer-files-electron
 
 ```
 cd Rocket.Chat.Electron
 yarn
 yarn start
 ```
-Для сборки потребуется пакет https://github.com/f3rret/simple-peer-files-electron
+
+Требования к **клиенту** указаны в описании к релизу https://github.com/f3rret/Rocket.Chat.Electron/releases/tag/custom
+
